@@ -27,6 +27,7 @@ var Dog2 = {
 
 Dog2.bark();
 */
+/*
 // Constructor function
 function Dog(name, bark, legs){
   this.legs =  4;
@@ -62,13 +63,13 @@ dog2.bark();
 dog2.getLegs();
 
 // encapsulation
-
+// ======================
 // when we are cretating objects we want ot control when that value is something
 // Accesor
-
+// ======================
 // cretae a person constructor function w/ first and last name props and create setter methods for both
 // inside method must verify that input if a string less than 50 char
-
+*/
 function Person(firstName, lastName){
   this.firstName = firstName;
   this.lastName = lastName;
@@ -101,9 +102,12 @@ function Person(firstName, lastName){
   // end accessor function
   }
   //Person.setFirst('Alex');
-
 }
-
+// create a new instance of the person object and set it
+//equal to alex
 var alex = new Person('alex', 'bennett');
-
-console.log(alex.firstName);
+console.log(alex.firstName +" "+ alex.lastName);
+// create another instance of the perosn object and set it
+// equal to isaac
+var isaac = new Person('issac', 'leesard');
+console.log('Hey holmes! ' + isaac.firstName + "" + isaac.lastName);
